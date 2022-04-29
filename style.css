@@ -1,0 +1,51 @@
+html body {
+    background-color: #EAEAEA;
+}
+
+.halaman {
+    background-color: #cacaca;
+    position: absolute;
+    width: 320px;
+    overflow: hidden;
+    left: 35%;
+    top: 40%;
+    border-radius: 12px;
+}
+
+.halaman ul{
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.halaman ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.halaman:hover {
+    background-color: #dfd9d9ec;
+    transition: 0.4s;
+}
+
+.halaman ul li a:hover {
+    border-bottom: 2px solid rgb(59, 59, 59);
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+/* Image Start */
+.image1 img{
+    width: 25%;
+    margin: 2% 9%;
+}
+
+.image2 img{
+    width: 33%;
+    margin: -43% 0;
+    float: right;
+}
+
+/* Image End */
+

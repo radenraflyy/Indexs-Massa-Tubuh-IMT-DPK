@@ -1,0 +1,168 @@
+html, * {
+    margin: 0;
+}
+/* Naviagtion Start */
+.container {
+    margin: 0;
+}
+
+
+.wrapper {
+    font-family: monospace;
+}
+
+.section-nav {
+    position: absolute;
+    background-color: #686A6B;
+    border-radius: 20px;
+    width: 98%;
+    overflow: hidden;
+    left: 13px;
+    top: 15px;
+}
+
+.navbar-nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    list-style: none;
+    font-size: 45px;
+    text-align: center;
+    margin:0;
+    text-shadow: 2px 2px 2px black;
+}
+
+h4 {
+    font-size: 12px;
+    color: #EAEAEA;
+}
+
+.logo li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 2.5rem 5rem;
+}
+
+.navigation li {
+    margin-right: 2rem;
+    font-size: 25px;
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+.navigation li a:hover {
+    border-bottom: 2px solid;
+    transition: 0.3s;
+}
+
+.about {
+    float: right;
+    margin: -22.5% 8rem;
+    z-index: 1;
+}
+
+.about li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.about li  a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.about li  a:hover {
+    border-bottom: 2px solid;
+    transition: 0.3s;
+}
+/* Navigation End */
+
+/* Image Start */
+.image, img{
+    position: absolute;
+    height: 250px;
+    left: 85px;
+    top: 3px;
+}
+
+/* Image End */
+
+/* Kalkulator IMT Start */
+.judul, h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 29%;
+    text-align: center;
+    left: 42%;
+    text-shadow: 4px 4px #cacaca;
+    cursor: pointer;
+}
+/* Kalkulator IMT End */
+
+/* Footer Start */
+
+h3 {
+    position: absolute;
+    text-align: center;
+    left: 44%;
+    text-shadow: 4px 4px #cacaca;
+}
+
+.people ul {
+    margin-top: 10%;
+    margin-bottom: 1rem;
+}
+
+.people li {
+    margin-right: 20px;
+    font-size: 27px;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.people li a {
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    font-weight: 800;
+}
+
+.people li a:hover {
+    border-bottom: 2px solid;
+    transition: 0.3s;
+    color: #686A6B;
+}
+
+/* Footer Start */
+.footer1 h3 {
+    left: 42.5%;
+}
+
+.footer2 {
+    background-color: #686A6B;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.footer2 p {
+    text-align: center;
+    margin: 0 auto;
+    color: #EAEAEA;
+    padding: 1px 0;
+    font-weight: 800;
+}
+/* Footer End */
